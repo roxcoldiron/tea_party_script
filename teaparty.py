@@ -16,7 +16,7 @@ def cakes_and_tea(cake_count, cups_of_tea):
   if cake_count and cups_of_tea >= num_guests:
     print(f"we have enough cakes and tea for our {num_guests} guests")
   else:
-    print("we need more cakes and tea!")
+    print(f"we need more cakes and tea for our {num_guests} guests!")
     
 # call the function to see if we are fully prepared for the tea party!    
 
